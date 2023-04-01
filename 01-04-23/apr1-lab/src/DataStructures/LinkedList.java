@@ -18,7 +18,6 @@ class LinkedList {
         }
     }
 
-    ;
     private Node head;
 
     LinkedList(Node top) {
@@ -28,7 +27,7 @@ class LinkedList {
     LinkedList() {
     }
 
-    public boolean isempty() {
+    public boolean isEmpty() {
         return head == null;
     }
 
